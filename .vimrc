@@ -1,5 +1,6 @@
 " Visual Settings
 :set number
+:set encoding=UTF-8
 
 " Spacing Settings
 :set tabstop=2
@@ -9,7 +10,8 @@
 " Vim-Plug
 call plug#begin()
 
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
@@ -17,3 +19,4 @@ call plug#end()
 inoremap jj <Esc>
 inoremap ;; ;<Esc>
 inoremap ; ;<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
