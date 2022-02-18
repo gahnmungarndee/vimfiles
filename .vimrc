@@ -13,9 +13,9 @@ call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
+Plug 'easymotion/vim-easymotion'
 
-" Devicons must be last
-Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons' "must be placed last
 
 call plug#end()
 
@@ -24,3 +24,5 @@ inoremap jj <Esc>
 inoremap ;; ;<Esc>
 inoremap ; ;<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+let mapleader = "," "map leader to comma
+
