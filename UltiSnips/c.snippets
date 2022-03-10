@@ -1,0 +1,31 @@
+snippet main "main function"
+int main(void)
+{
+	$0
+
+	return(0);
+}
+endsnippet
+
+snippet {{ "open bracket" i
+
+{
+	$0
+}
+endsnippet
+
+snippet (( "open parenthesis" i
+($1)$0
+endsnippet
+
+snippet "" "open quotes" i
+"$1"$0
+endsnippet
+
+snippet (" "open paraenthesis + quotes" i
+("$1")$0
+endsnippet
+
+snippet ret "return statement"
+return($1);$0
+endsnippet
