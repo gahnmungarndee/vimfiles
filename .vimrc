@@ -31,16 +31,7 @@ inoremap ;' ;<Esc>
 nnoremap <C-t> :NERDTreeToggle<CR>
 let mapleader = "," "map leader to comma
 
-" Ultisnips 
+" UltiSnips 
 let g:UltiSnipsExpandTrigger = "<Tab>"
 let g:UltiSnipsJumpForwardTrigger = "<Tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<S-Tab>"
-
-" NERDTree Key Bindings
-nnoremap <C-t> :NERDTreeToggle<CR>
-let mapleader = "," "map leader to comma
-
-" Ultisnips Key Bindings
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
