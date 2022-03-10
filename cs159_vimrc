@@ -1,0 +1,13 @@
+" Visual Settings
+:set encoding=UTF-8
+:set number
+
+" Spacing Settings
+:set tabstop=2
+:set shiftwidth=2
+:set expandtab
+
+" Vim Key Bindings
+inoremap jj <Esc>
+inoremap ;; ;<CR>
+inoremap ;' ;<Esc>
