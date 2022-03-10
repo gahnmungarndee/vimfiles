@@ -14,15 +14,24 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
 Plug 'easymotion/vim-easymotion'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'ycm-core/YouCompleteMe'
 
 Plug 'ryanoasis/vim-devicons' "must be placed last
 
 call plug#end()
 
-" Key Bindings
+" Vim Key Bindings
 inoremap jj <Esc>
-inoremap ;; ;<Esc>
-inoremap ; ;<CR>
+inoremap ;; ;<CR>
+inoremap ;' ;<Esc>
+
+" NERDTree 
 nnoremap <C-t> :NERDTreeToggle<CR>
 let mapleader = "," "map leader to comma
 
+" Ultisnips 
+let g:UltiSnipsExpandTrigger = "<Tab>"
+let g:UltiSnipsJumpForwardTrigger = "<Tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<S-Tab>"
